@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.DS_Store
+# trained weights and raw monitor logs are reproducible and large
+results/*/models/
+results/*/train_logs/
+results/*/trajectories/

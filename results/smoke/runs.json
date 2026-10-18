@@ -1,0 +1,202 @@
+{
+  "ppo__weak__seed1": {
+    "ok": true,
+    "run_id": "ppo__weak__seed1",
+    "algo": "ppo",
+    "condition": "weak",
+    "seed": 1,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 5.9
+  },
+  "ppo__moderate__seed1": {
+    "ok": true,
+    "run_id": "ppo__moderate__seed1",
+    "algo": "ppo",
+    "condition": "moderate",
+    "seed": 1,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 5.9
+  },
+  "ppo__aligned__seed1": {
+    "ok": true,
+    "run_id": "ppo__aligned__seed1",
+    "algo": "ppo",
+    "condition": "aligned",
+    "seed": 1,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 5.9
+  },
+  "ppo__aligned__seed0": {
+    "ok": true,
+    "run_id": "ppo__aligned__seed0",
+    "algo": "ppo",
+    "condition": "aligned",
+    "seed": 0,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 6.0
+  },
+  "ppo__moderate__seed0": {
+    "ok": true,
+    "run_id": "ppo__moderate__seed0",
+    "algo": "ppo",
+    "condition": "moderate",
+    "seed": 0,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 6.0
+  },
+  "ppo__weak__seed0": {
+    "ok": true,
+    "run_id": "ppo__weak__seed0",
+    "algo": "ppo",
+    "condition": "weak",
+    "seed": 0,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 6.0
+  },
+  "ppo__strong__seed1": {
+    "ok": true,
+    "run_id": "ppo__strong__seed1",
+    "algo": "ppo",
+    "condition": "strong",
+    "seed": 1,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 1.5
+  },
+  "ppo__strong__seed0": {
+    "ok": true,
+    "run_id": "ppo__strong__seed0",
+    "algo": "ppo",
+    "condition": "strong",
+    "seed": 0,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 1.5
+  },
+  "ppo__mitigation__seed1": {
+    "ok": true,
+    "run_id": "ppo__mitigation__seed1",
+    "algo": "ppo",
+    "condition": "mitigation",
+    "seed": 1,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 1.5
+  },
+  "ppo__mitigation__seed0": {
+    "ok": true,
+    "run_id": "ppo__mitigation__seed0",
+    "algo": "ppo",
+    "condition": "mitigation",
+    "seed": 0,
+    "total_timesteps": 4096,
+    "n_envs": 8,
+    "train_seconds": 1.6
+  },
+  "dqn__aligned__seed1": {
+    "ok": true,
+    "run_id": "dqn__aligned__seed1",
+    "algo": "dqn",
+    "condition": "aligned",
+    "seed": 1,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.6
+  },
+  "dqn__aligned__seed0": {
+    "ok": true,
+    "run_id": "dqn__aligned__seed0",
+    "algo": "dqn",
+    "condition": "aligned",
+    "seed": 0,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.7
+  },
+  "dqn__weak__seed0": {
+    "ok": true,
+    "run_id": "dqn__weak__seed0",
+    "algo": "dqn",
+    "condition": "weak",
+    "seed": 0,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.5
+  },
+  "dqn__moderate__seed1": {
+    "ok": true,
+    "run_id": "dqn__moderate__seed1",
+    "algo": "dqn",
+    "condition": "moderate",
+    "seed": 1,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.8
+  },
+  "dqn__moderate__seed0": {
+    "ok": true,
+    "run_id": "dqn__moderate__seed0",
+    "algo": "dqn",
+    "condition": "moderate",
+    "seed": 0,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.8
+  },
+  "dqn__weak__seed1": {
+    "ok": true,
+    "run_id": "dqn__weak__seed1",
+    "algo": "dqn",
+    "condition": "weak",
+    "seed": 1,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.9
+  },
+  "dqn__strong__seed1": {
+    "ok": true,
+    "run_id": "dqn__strong__seed1",
+    "algo": "dqn",
+    "condition": "strong",
+    "seed": 1,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.5
+  },
+  "dqn__strong__seed0": {
+    "ok": true,
+    "run_id": "dqn__strong__seed0",
+    "algo": "dqn",
+    "condition": "strong",
+    "seed": 0,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.6
+  },
+  "dqn__mitigation__seed0": {
+    "ok": true,
+    "run_id": "dqn__mitigation__seed0",
+    "algo": "dqn",
+    "condition": "mitigation",
+    "seed": 0,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.1
+  },
+  "dqn__mitigation__seed1": {
+    "ok": true,
+    "run_id": "dqn__mitigation__seed1",
+    "algo": "dqn",
+    "condition": "mitigation",
+    "seed": 1,
+    "total_timesteps": 3000,
+    "n_envs": 1,
+    "train_seconds": 2.0
+  }
+}

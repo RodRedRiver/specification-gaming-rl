@@ -1,0 +1,11 @@
+gymnasium>=1.0
+stable-baselines3>=2.3
+torch>=2.2
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+scipy>=1.11
+pyyaml>=6.0
+imageio>=2.31
+pillow>=10.0
+pytest>=8.0
