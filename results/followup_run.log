@@ -1,0 +1,27 @@
+25 runs: algos=['ppo'] conditions=['aligned', 'weak', 'moderate', 'strong', 'mitigation'] seeds=[0, 1, 2, 3, 4] workers=6
+[train 1/25] ppo__aligned__seed4: 100.7s
+[train 2/25] ppo__aligned__seed2: 100.7s
+[train 3/25] ppo__weak__seed0: 100.7s
+[train 4/25] ppo__aligned__seed0: 101.1s
+[train 5/25] ppo__aligned__seed1: 101.3s
+[train 6/25] ppo__aligned__seed3: 101.6s
+[train 7/25] ppo__weak__seed1: 105.6s
+[train 8/25] ppo__weak__seed3: 106.4s
+[train 9/25] ppo__weak__seed4: 105.9s
+[train 10/25] ppo__moderate__seed0: 105.8s
+[train 11/25] ppo__weak__seed2: 107.4s
+[train 12/25] ppo__moderate__seed1: 107.0s
+[train 13/25] ppo__moderate__seed2: 98.4s
+[train 14/25] ppo__moderate__seed3: 99.3s
+[train 15/25] ppo__moderate__seed4: 99.5s
+[train 16/25] ppo__strong__seed0: 99.7s
+[train 17/25] ppo__strong__seed1: 99.3s
+[train 18/25] ppo__strong__seed2: 100.2s
+[train 19/25] ppo__strong__seed3: 100.2s
+[train 20/25] ppo__strong__seed4: 100.5s
+[train 21/25] ppo__mitigation__seed1: 99.9s
+[train 22/25] ppo__mitigation__seed2: 99.5s
+[train 23/25] ppo__mitigation__seed0: 101.5s
+[train 24/25] ppo__mitigation__seed3: 100.1s
+[train 25/25] ppo__mitigation__seed4: 38.9s
+done in 509s; evaluated 25/25 runs -> /Users/rodrigoriotinto/specification-gaming-rl/results/followup_entropy

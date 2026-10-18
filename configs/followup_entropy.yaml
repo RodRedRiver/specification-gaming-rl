@@ -1,0 +1,9 @@
+# POST-HOC FOLLOW-UP, not preregistered. Written on 2026-10-18 after the full run's training
+# logs showed 3 of 5 aligned PPO seeds never discovering delivery (they idle against a wall).
+# Question: is the weak-proxy farming and aligned failure an exploration problem? Changes exactly
+# one hyperparameter, identically for every condition: PPO ent_coef 0.01 -> 0.05. PPO only.
+extends: base.yaml
+name: followup_entropy
+algorithms: [ppo]
+hyperparameters:
+  ppo: {ent_coef: 0.05}
