@@ -208,7 +208,11 @@ report/     preregistration.md, report.md, narrative.md
 * The manifests record `git_dirty_code: true`. During the full run, files were *added* (the plotting and summary
   scripts, the follow-up config), but the code that trains and evaluates (`env.py`, `metrics.py`, `experiment.py`,
   `policies.py`, `config.py`, `run_experiment.py`, `base.yaml`, `full.yaml`) is byte-identical to the
-  preregistration commit `4983026` (`git diff 4983026 -- <those files>` is empty).
+  preregistration commit `800ba5a` (`git diff 800ba5a -- <those files>` is empty).
+* Commit messages were edited after the runs (a trailer line removed), which changed the commit hashes but
+  not the content. The manifests and generated summaries record the original hash `4983026` for the
+  preregistration commit. That is now `800ba5a`, with the identical tree `f097ef0`
+  (`git rev-parse 800ba5a^{tree}`). The author dates are unchanged.
 * Disclosed analysis changes made after seeing results: rate intervals are clipped to [0, 100] % for display;
   seed counts and a Wilson episode-sampling interval were added, because success is bimodal and the
   seed-level interval collapses when all seeds learn the same policy. The preregistered numbers are reported unchanged.

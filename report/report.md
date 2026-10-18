@@ -65,7 +65,7 @@ evaluated greedily for 200 episodes on evaluation seeds disjoint from training. 
 Student-t over the 5 per-seed means.
 
 **Preregistration.** Hypotheses H1–H4, the metrics and the decision rule were committed before the full run
-(`report/preregistration.md`, commit `4983026`).
+(`report/preregistration.md`, commit `800ba5a`).
 
 ## 3. Results (main experiment, preregistered)
 
